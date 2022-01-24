@@ -39,3 +39,37 @@ body {
   font-size: 18px;
   padding-right: 15px;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 33% auto auto;
+  grid-gap: 1em;
+  margin: 1em;
+  text-align: center;
+}
+
+.container div {
+  padding: 2em;
+  border: 4px dashed black;
+}
+
+.container img {
+  width: 200px;
+  height: auto;
+}
+
+.box1 {
+  background-color: brown;
+  color: antiquewhite;
+  padding: 2em;
+}
+
+.box2 {
+  background-color: olivedrab;
+  color: antiquewhite;
+}
+
+.box3 {
+  background-color: burlywood;
+  color: black;
+}
