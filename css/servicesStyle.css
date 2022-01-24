@@ -39,3 +39,29 @@ body {
   font-size: 18px;
   padding-right: 15px;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  margin: 3em;
+  padding: 2em;
+  grid-gap: 2em;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% auto;
+}
+
+.container audio {
+  padding-left: 30em;
+}
+
+.box1 {
+  background: orangered;
+  color: black;
+  border: 10px black dashed;
+  font-size: 4em;
+  font-weight: bold;
+}
