@@ -19,6 +19,10 @@ body {
   background-image: url(/images/mail.gif);
 }
 
+ul {
+  list-style: none;
+}
+
 #navbar {
   background: slategrey;
   border: 1px dotted red;
@@ -38,4 +42,13 @@ body {
   color: blue;
   font-size: 18px;
   padding-right: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% auto;
+  background: seashell;
+  border: 5px purple solid;
+  margin: 2em;
+  padding: 3em;
 }
